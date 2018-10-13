@@ -22,7 +22,7 @@ public class TestCommunication extends AbstractJUnitBase
 	{
 		// Tests
 		AtmEndPointServer server = new AtmEndPointServer(8001);
-
+	
 		try
 		{
 			server.start();
